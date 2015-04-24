@@ -1,0 +1,25 @@
+{
+  "name": "otalk-media-devices",
+  "description": "Track user media devices",
+  "version": "1.0.0",
+  "author": "Lance Stout <lance@andyet.com>",
+  "bugs": {
+    "url": "https://github.com/otalk/otalk-media-devices/issues"
+  },
+  "dependencies": {
+    "ampersand-collection": "^1.4.5",
+    "ampersand-filtered-subcollection": "^2.0.0",
+    "ampersand-state": "^4.5.3"
+  },
+  "homepage": "https://github.com/otalk/otalk-media-devices",
+  "keywords": [
+    "media",
+    "otalk"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otalk/otalk-media-devices"
+  }
+}
