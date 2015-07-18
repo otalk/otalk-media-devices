@@ -220,7 +220,7 @@ var DeviceManager = State.extend({
 
         self.refresh();
 
-        if (window.navigator.mediaDevices) {
+        if (window.navigator.mediaDevices && window.navigator.mediaDevices.addEventListener) {
             window.navigator.mediaDevices.addEventListener('devicechange', function () {
                 self.refresh();
             });
