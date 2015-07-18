@@ -241,7 +241,7 @@ var DeviceManager = State.extend({
                 return;
             }
 
-            self.devices.set(sources, { parse: true, merge: true });
+            self.devices.reset(sources, { parse: true });
             self.knownDevices = true;
         });
     },
