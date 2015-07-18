@@ -1,7 +1,7 @@
 {
   "name": "otalk-media-devices",
   "description": "Track user media devices",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Lance Stout <lance@andyet.com>",
   "bugs": {
     "url": "https://github.com/otalk/otalk-media-devices/issues"
